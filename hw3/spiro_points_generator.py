@@ -4,6 +4,7 @@ from math import cos, sin, pi
 
 centerX = -118.28551117649391
 centerY = 34.02073082963444
+
 R = 36
 r = 9
 a = 30

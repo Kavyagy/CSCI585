@@ -1,7 +1,7 @@
 -- Local MySQL database
 
--- CREATE DATABASE HW2;
--- USE HW2;
+CREATE DATABASE HW2;
+USE HW2;
 
 -- Create Employee table
 CREATE TABLE Employee (
