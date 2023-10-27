@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml
+	xmlns="http://earth.google.com/kml/2.0">
+	<Document>
+		<Style id="z1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Folder>
+			<name>Libraries</name>
+			<Placemark>
+				<name>Leavy Library</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.282925183241,34.02199598099407</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Doheny Library</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.28374733274079,34.02030403799224</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Science and Engineering Library</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.28875651022642,34.01986019515823</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>eateries</name>
+			<Placemark>
+				<name>Tutor Hall Cafe</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.28996443461222,34.02088608336268</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>USC Law Cafe</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.2845571013266,34.019569994934315</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Little Galen Cafe</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.28708923095672,34.02290479883183</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>department buildings</name>
+			<Placemark>
+				<name>USC School of Cinematic Arts</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.2864198143773,34.02414514757435</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>USC Department of Mathematics</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.29060973876254,34.022612080584764</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>USC School of Architecture</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.28801439994476,34.01936305118736</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>waterworks</name>
+			<Placemark>
+				<name>Epstein Family Plaza Fountain</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.28885641165677,34.020457386430294</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Patsy and Forrest Shumway Fountain</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.28519701180892,34.02021281338729</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fubon Fountain</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.28507108766108,34.02547699595332</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Placemark>
+			<name>Home</name>
+			<styleUrl>#z1</styleUrl>
+			<Point>
+				<coordinates>-118.28817556080034,34.032179097981505</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Convex Hull</name>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+		-118.28801439994476,34.01936305118736,10.0
+		-118.28875651022642,34.01986019515823,10.0
+		-118.28996443461222,34.02088608336268,10.0
+		-118.29060973876254,34.022612080584764,10.0
+		-118.28817556080034,34.032179097981505,10.0
+		-118.282925183241,34.02199598099407,10.0
+		-118.28374733274079,34.02030403799224,10.0
+		-118.2845571013266,34.019569994934315,10.0
+		-118.28801439994476,34.01936305118736,10.0
+        </coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<coordinates>-118.28817556080034,34.032179097981505 -118.28507108766108,34.02547699595332</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<coordinates>-118.28817556080034,34.032179097981505 -118.2864198143773,34.02414514757435</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<coordinates>-118.28817556080034,34.032179097981505 -118.28708923095672,34.02290479883183</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<coordinates>-118.28817556080034,34.032179097981505 -118.29060973876254,34.022612080584764</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>
